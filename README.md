@@ -86,32 +86,37 @@
 
 ### Step-by-Step Installation
 
-1. **Clone or Download the Repository**
+1. **Clone the repository**
 
-   ```powershell
+   ```bash
    git clone https://github.com/deaneeth/budgetme-finance-manager.git
+   ```
+
+2. **Navigate to the project directory**
+
+   ```bash
    cd budgetme-finance-manager
    ```
 
-2. **Open the Solution**
+3. **Open the Solution**
    - Launch Visual Studio
    - Open `BudgetMe.sln` from the repository folder
 
-3. **Restore NuGet Packages**
+4. **Restore NuGet Packages**
    - Right-click on the Solution in Solution Explorer
    - Select "Restore NuGet Packages"
    - Wait for the process to complete
 
-4. **Database Configuration**
+5. **Database Configuration**
    - The application uses LocalDB with a relative path (`|DataDirectory|\BudgetMeDatabases.mdf`)
    - No manual configuration needed if using the default setup
    - All connection strings use Integrated Security (no passwords are stored in the code)
 
-5. **Build the Solution**
+6. **Build the Solution**
    - Select Build → Build Solution (or press Ctrl+Shift+B)
    - Ensure there are no build errors
 
-6. **Run the Application**
+7. **Run the Application**
    - Press F5 or click the "Start" button to launch the application
    - The application will open at the Login screen
 
