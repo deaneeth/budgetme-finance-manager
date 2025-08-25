@@ -89,8 +89,8 @@
 1. **Clone or Download the Repository**
 
    ```powershell
-   git clone https://github.com/YOUR-USERNAME/BudgetMe.git
-   cd BudgetMe
+   git clone https://github.com/deaneeth/budgetme-finance-manager.git
+   cd budgetme-finance-manager
    ```
 
 2. **Open the Solution**
